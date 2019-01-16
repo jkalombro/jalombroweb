@@ -1,14 +1,14 @@
 {
-  "main.css": "/jalombroweb/static/css/main.91e4b457.chunk.css",
-  "main.js": "/jalombroweb/static/js/main.2917ac2b.chunk.js",
-  "main.js.map": "/jalombroweb/static/js/main.2917ac2b.chunk.js.map",
-  "static/js/1.ed1ee261.chunk.js": "/jalombroweb/static/js/1.ed1ee261.chunk.js",
-  "static/js/1.ed1ee261.chunk.js.map": "/jalombroweb/static/js/1.ed1ee261.chunk.js.map",
+  "main.css": "/jalombroweb/static/css/main.dbe43cc0.chunk.css",
+  "main.js": "/jalombroweb/static/js/main.4e8021c7.chunk.js",
+  "main.js.map": "/jalombroweb/static/js/main.4e8021c7.chunk.js.map",
+  "static/js/1.099d6d51.chunk.js": "/jalombroweb/static/js/1.099d6d51.chunk.js",
+  "static/js/1.099d6d51.chunk.js.map": "/jalombroweb/static/js/1.099d6d51.chunk.js.map",
   "runtime~main.js": "/jalombroweb/static/js/runtime~main.dea11781.js",
   "runtime~main.js.map": "/jalombroweb/static/js/runtime~main.dea11781.js.map",
   "static/media/me_cartoon.png": "/jalombroweb/static/media/me_cartoon.c16f5607.png",
-  "static/css/main.91e4b457.chunk.css.map": "/jalombroweb/static/css/main.91e4b457.chunk.css.map",
+  "static/css/main.dbe43cc0.chunk.css.map": "/jalombroweb/static/css/main.dbe43cc0.chunk.css.map",
   "index.html": "/jalombroweb/index.html",
-  "precache-manifest.4616e78705172e3a8121190010d54094.js": "/jalombroweb/precache-manifest.4616e78705172e3a8121190010d54094.js",
+  "precache-manifest.0fc624e69ebfee8b3edecffbc30536f8.js": "/jalombroweb/precache-manifest.0fc624e69ebfee8b3edecffbc30536f8.js",
   "service-worker.js": "/jalombroweb/service-worker.js"
 }
