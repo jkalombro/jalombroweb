@@ -65,12 +65,17 @@ a button:focus {
 
 .skills-page-container,
 .contact-page-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 100%;
   min-height: 100%;
+  padding: 30px;
 }
 
 .personal-div {
@@ -188,4 +193,9 @@ a button:focus {
    -ms-animation: fadein 0.5s; /* Internet Explorer */
     -o-animation: fadein 0.5s; /* Opera < 12.1 */
        animation: fadein 0.5s;
+}
+
+.skill-box {
+  width: 80vw;
+  text-align: center;
 }
