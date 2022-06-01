@@ -1,5 +1,5 @@
 .App {
-  font-family: calibri;
+  font-family: 'Lato', sans-serif;
   min-height: 100vh;
 }
 
@@ -33,7 +33,7 @@
 }
 
 a .header-btn {
-  font-family: calibri;
+  font-family: 'Lato', sans-serif;
   background: transparent;
   border: 0px;
   cursor: pointer;
