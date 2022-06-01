@@ -1,5 +1,6 @@
 .App {
   font-family: calibri;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -73,7 +74,6 @@ a button:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   min-height: 100%;
   padding: 30px;
 }
@@ -83,8 +83,7 @@ a button:focus {
   background-color: #282c34;
   color: white;
   text-align: center;
-  height: 78.6vh;
-  padding: 40px 40px 0px 40px;
+  height: 85vh;
 }
 
 .personal-div h1 {

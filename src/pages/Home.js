@@ -15,7 +15,8 @@ class Home extends Component {
       <div className="home-page-container">
           <div className="personal-div">
             <h1>Hi, I'm Jerich!</h1>
-            <p>I'm a Software Developer that specializes in Web, .NET and IOS Development.</p>
+            <p>I'm a Software Developer that specializes in Front-end.</p>
+            <p>I love using ReactJS.</p>
             <SocialMedia />
             <img className="cartoon-img" src={meCartoonIMG} alt="my-cartoon-self" />
           </div>

@@ -13,16 +13,16 @@ class Skills extends Component {
         BarHoverColor: "rgb(45, 210, 15, 0.8)",
         BarBorderColor: "rgb(29, 123, 12, 1)",
         SkillName: "Front-End Development",
-        Technologies: ["HTML5","CSS3","JavaScript","jQuery","ReactJS","Redux","AngularJS","ES6","JSON"],
-        Rate: [9, 8, 8, 7, 7, 6, 8, 5, 9]
+        Technologies: ["ReactJS","HTML5","CSS3","JavaScript","Blazor","jQuery","Redux","AngularJS","ES6","JSON"],
+        Rate: [8, 9, 8, 8, 7, 7, 7, 8, 5, 9]
       },
       { 
         BarColor: "rgb(45, 210, 15, 0.5)",
         BarHoverColor: "rgb(45, 210, 15, 0.8)",
         BarBorderColor: "rgb(29, 123, 12, 1)",
         SkillName: "Back-End Development",
-        Technologies: ["VB.NET","Classic ASP","NodeJS","SOAP API", "REST API"],
-        Rate: [8, 8, 5, 8, 9]
+        Technologies: ["VB.NET","C#","Classic ASP","NodeJS","SOAP API", "REST API"],
+        Rate: [8, 7, 8, 5, 8, 9]
       },
       { 
         BarColor: "rgb(45, 210, 15, 0.5)",
