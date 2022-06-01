@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jkalombro/precache-manifest.baccf794e7b9b5a0a2dccde451755d0e.js"
+  "/jalombroweb/precache-manifest.afe619df6270b9777bcfd1c0aef4a042.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/jkalombro/index.html", {
+workbox.routing.registerNavigationRoute("/jalombroweb/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
