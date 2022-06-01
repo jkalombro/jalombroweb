@@ -33,32 +33,32 @@ class App extends Component {
 
             {/* Main Menu */}
             <div className="header-box-2">
-              <Link to="/jkalombro/home">
-                <button className={this.state.activemenu === '/jkalombro/home' ? 'header-btn btn-selected' : 'header-btn'}>HOME</button>
+              <Link to="/jalombroweb/home">
+                <button className={this.state.activemenu === '/jalombroweb/home' ? 'header-btn btn-selected' : 'header-btn'}>HOME</button>
               </Link>
-              <Link to="/jkalombro/skills">
-                <button className={this.state.activemenu === '/jkalombro/skills' ? 'header-btn btn-selected' : 'header-btn'}>SKILLS</button>
+              <Link to="/jalombroweb/skills">
+                <button className={this.state.activemenu === '/jalombroweb/skills' ? 'header-btn btn-selected' : 'header-btn'}>SKILLS</button>
               </Link>
-              <Link to="/jkalombro/contact">
-                <button className={this.state.activemenu === '/jkalombro/contact' ? 'header-btn btn-selected' : 'header-btn'}>CONTACT</button>
+              <Link to="/jalombroweb/contact">
+                <button className={this.state.activemenu === '/jalombroweb/contact' ? 'header-btn btn-selected' : 'header-btn'}>CONTACT</button>
               </Link>
             </div>
           </header>
           <Switch>
-            <Route exact path="/jkalombro/home" 
+            <Route exact path="/jalombroweb/home" 
               render={(props) => <HomePage {...props} 
                 handleChangeRoute={this.handleChangeRoute} 
                 currentactivemenu={this.state.activemenu}/>} />
-            <Route exact path="/jkalombro/skills" 
+            <Route exact path="/jalombroweb/skills" 
               render={(props) => <SkillPage {...props} 
                   handleChangeRoute={this.handleChangeRoute} 
                   currentactivemenu={this.state.activemenu}/>} />
-            <Route exact path="/jkalombro/contact" 
+            <Route exact path="/jalombroweb/contact" 
               render={(props) => <ContactPage {...props} 
                 handleChangeRoute={this.handleChangeRoute} 
                 currentactivemenu={this.state.activemenu}/>} />
-            <Redirect from="/" to="/jkalombro/home" />
-            <Redirect from="/jkalombro" to="/jkalombro/home" />
+            <Redirect from="/" to="/jalombroweb/home" />
+            <Redirect from="/jalombroweb" to="/jalombroweb/home" />
           </Switch>
         </div>
       </Router>
