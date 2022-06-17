@@ -13,7 +13,7 @@ class SocialMedia extends Component {
     render() {
         return (
         <div className="smedia" >
-            <img src={githubIMG} onClick={this.handleClick.bind(null, "https://github.com/jkninja238")} alt="GitHub Logo" />
+            <img src={githubIMG} onClick={this.handleClick.bind(null, "https://github.com/jkalombro")} alt="GitHub Logo" />
             <img src={linkedinIMG} onClick={this.handleClick.bind(null, "https://www.linkedin.com/in/jerich-alombro-47a4a9124/")} alt="LinkedIn Logo" />
         </div>
         )

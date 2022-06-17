@@ -8,7 +8,7 @@
   position: -webkit-sticky;
   top: 0;
   background-color: #282c34;
-  min-height: 15vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
   font-size: calc(10px + 2vmin);
@@ -83,7 +83,7 @@ a button:focus {
   background-color: #282c34;
   color: white;
   text-align: center;
-  height: 85vh;
+  height: 90vh;
 }
 
 .personal-div h1 {

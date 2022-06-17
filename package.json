@@ -2,7 +2,7 @@
   "name": "jalombroweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jkninja238.github.io/jalombroweb/",
+  "homepage": "https://jkalombro.github.io/jalombroweb/",
   "dependencies": {
     "chart.js": "^2.7.3",
     "gh-pages": "^2.0.1",
