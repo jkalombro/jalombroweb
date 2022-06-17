@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0b9c800cde3acdd4c889",
-    "url": "/jalombroweb/static/css/main.4ae617e0.chunk.css"
+    "revision": "6e5284f3cd6067f07824",
+    "url": "/jalombroweb/static/css/main.e645086e.chunk.css"
   },
   {
-    "revision": "0b9c800cde3acdd4c889",
-    "url": "/jalombroweb/static/js/main.0b9c800c.chunk.js"
+    "revision": "6e5284f3cd6067f07824",
+    "url": "/jalombroweb/static/js/main.6e5284f3.chunk.js"
   },
   {
     "revision": "4483b6e843673b749ba4",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/jalombroweb/static/media/me_cartoon.c16f5607.png"
   },
   {
-    "revision": "10cbe03bf8b5694ede03af1409af8afd",
+    "revision": "49f35cbd4711344151a71b4b6ec23880",
     "url": "/jalombroweb/index.html"
   }
 ];

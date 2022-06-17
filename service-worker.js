@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jalombroweb/precache-manifest.82d31cd2a4ef0f77773a8abc9f74fee6.js"
+  "/jalombroweb/precache-manifest.45596b3ee4fb088e8cb4294ccf8d5357.js"
 );
 
 workbox.clientsClaim();
