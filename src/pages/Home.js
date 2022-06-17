@@ -7,7 +7,7 @@ import SocialMedia from '../components/SocialMedia';
 
 class Home extends Component {
   render() {
-    if(this.props.currentactivemenu != this.props.location.pathname) {
+    if(this.props.currentactivemenu !== this.props.location.pathname) {
       this.props.handleChangeRoute(this.props.location.pathname);
     }
 

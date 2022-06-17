@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 class Contact extends Component {
   render() {
-    if(this.props.currentactivemenu != this.props.location.pathname) {
+    if(this.props.currentactivemenu !== this.props.location.pathname) {
         this.props.handleChangeRoute(this.props.location.pathname);
     }
 

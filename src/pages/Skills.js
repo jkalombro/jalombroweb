@@ -14,7 +14,7 @@ class Skills extends Component {
         BarBorderColor: "rgb(29, 123, 12, 1)",
         SkillName: "Front-End Development",
         Technologies: ["ReactJS","HTML5","CSS3","JavaScript","Blazor","jQuery","Redux","AngularJS","ES6","JSON"],
-        Rate: [8, 9, 8, 8, 7, 7, 7, 8, 5, 9]
+        Rate: [9, 9, 8, 8, 7, 7, 7, 8, 5, 9]
       },
       { 
         BarColor: "rgb(45, 210, 15, 0.5)",
@@ -36,7 +36,7 @@ class Skills extends Component {
   }
 
   render() {
-    if(this.props.currentactivemenu != this.props.location.pathname) {
+    if(this.props.currentactivemenu !== this.props.location.pathname) {
       this.props.handleChangeRoute(this.props.location.pathname);
     }
 
