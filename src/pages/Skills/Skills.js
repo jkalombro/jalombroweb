@@ -1,11 +1,10 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import './Skills.css';
 
 //components
 import SkillBox from '../../components/SkillBox';
 
-const Skills = ({ currentactivemenu, location, handleChangeRoute }) => {
+const Skills = () => {
   const skills = [
     { 
       BarColor: "rgb(45, 210, 15, 0.5)",
@@ -33,12 +32,8 @@ const Skills = ({ currentactivemenu, location, handleChangeRoute }) => {
     }
   ];
 
-  if(currentactivemenu !== location.pathname) {
-    handleChangeRoute(location.pathname);
-  }
-
-  let skillset = skills.map(skill => {
-      return <SkillBox skills={skill} />
+  let skillset = skills.map((skill, index) => {
+      return <SkillBox key={index} skills={skill} />
   });
   
   return (
@@ -48,4 +43,4 @@ const Skills = ({ currentactivemenu, location, handleChangeRoute }) => {
   );
 }
 
-export default withRouter(Skills);
+export default Skills;

@@ -1,12 +1,7 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import "./Contact.css";
 
-const Contact = ({ currentactivemenu, location, handleChangeRoute }) => {
-  if (currentactivemenu !== location.pathname) {
-    handleChangeRoute(location.pathname);
-  }
-
+const Contact = () => {
   return (
     <section className="contact-page">
       <br />
@@ -18,4 +13,4 @@ const Contact = ({ currentactivemenu, location, handleChangeRoute }) => {
   );
 };
 
-export default withRouter(Contact);
+export default Contact;

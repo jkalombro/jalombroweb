@@ -1,15 +1,11 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import meCartoonIMG from '../../images/me_cartoon.png';
 import './Home.css';
 
 //components
 import SocialMedia from '../../components/SocialMedia';
 
-const Home = ({ currentactivemenu, location, handleChangeRoute }) => {
-  if(currentactivemenu !== location.pathname) {
-    handleChangeRoute(location.pathname);
-  }
+const Home = () => {
 
   return (
     <section className="home-page">
@@ -24,4 +20,4 @@ const Home = ({ currentactivemenu, location, handleChangeRoute }) => {
   );
 }
 
-export default withRouter(Home);
+export default Home;
