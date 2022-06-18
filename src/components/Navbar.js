@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { UseAppContext } from '../context/AppContext';
 import myLogo from '../images/mylogowhite.png';
+import './Navbar.scss';
 
 const Navbar = () => {
   const { activemenu } = UseAppContext();

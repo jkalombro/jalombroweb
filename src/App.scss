@@ -1,63 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
-  font-family: "Lato", sans-serif;
   min-height: 100vh;
-}
-
-.App-header {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  z-index: 1041;
-}
-
-.header-box-1 {
-  flex: 1;
-  padding-left: 50px;
-
-  img {
-    height: 6vh;
-    opacity: 0.9;
-  }
-}
-
-.header-box-2 {
-  flex: 1;
-  position: absolute;
-  right: 50px;
-}
-
-a {
-  .header-btn {
-    font-family: "Lato", sans-serif;
-    background: transparent;
-    border: 0px;
-    cursor: pointer;
-    font-size: 20px;
-    color: white;
-    margin: 2vmin;
-    border-bottom: 2px solid transparent;
-  }
-
-  .header-btn:hover,
-  .header-btn:active {
-    color: skyblue;
-    border-bottom: 2px solid skyblue;
-  }
-
-  .header-btn:focus,
-  .btn-selected {
-    color: skyblue;
-  }
-
-  button:focus {
-    outline: 0;
-  }
 }
 
 .smedia {
@@ -78,20 +32,50 @@ a {
   text-align: center;
 }
 
-@media (max-width: 450px) {
-  .header-box-1 {
-    padding-left: 30px;
-
-    img {
-      height: 4vh;
-    }
+/* ---------- ANIMATIONS ------------ */
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
   }
-
-  .header-box-2 {
-    right: 30px;
-
-    button {
-      font-size: 15px;
-    }
+  100% {
+    transform: translateY(0);
   }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }

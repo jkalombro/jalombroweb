@@ -1,11 +1,11 @@
 import React from 'react';
 import meCartoonIMG from '../../images/me_cartoon.png';
-import './Home.scss';
+import './HomePage.scss';
 
 //components
 import SocialMedia from '../../components/SocialMedia';
 
-const Home = () => {
+const HomePage = () => {
 
   return (
     <section className="home-page">
@@ -20,4 +20,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default HomePage;
