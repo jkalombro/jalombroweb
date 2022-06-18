@@ -1,0 +1,74 @@
+.App-header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 1041;
+}
+
+.header-box-1 {
+  flex: 1;
+  padding-left: 50px;
+
+  img {
+    height: 6vh;
+    opacity: 0.9;
+  }
+}
+
+.header-box-2 {
+  flex: 1;
+  position: absolute;
+  right: 50px;
+}
+
+a {
+  .header-btn {
+    font-family: "Lato", sans-serif;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin: 2vmin;
+    border-bottom: 2px solid transparent;
+  }
+
+  .header-btn:hover,
+  .header-btn:active {
+    color: skyblue;
+    border-bottom: 2px solid skyblue;
+  }
+
+  .header-btn:focus,
+  .btn-selected {
+    color: skyblue;
+  }
+
+  button:focus {
+    outline: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-box-1 {
+    padding-left: 30px;
+
+    img {
+      height: 4vh;
+    }
+  }
+
+  .header-box-2 {
+    right: 30px;
+
+    button {
+      font-size: 15px;
+    }
+  }
+}

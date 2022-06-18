@@ -6,9 +6,9 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import PageRouteWrapper from './utils/PageRouteWrapper';
 
-const HomePage = lazy(() => import('./pages/Home/Home'));
-const SkillPage = lazy(() => import('./pages/Skills/Skills'));
-const ContactPage = lazy(() => import('./pages/Contact/Contact'));
+const HomePage = lazy(() => import('./pages/Home/HomePage'));
+const SkillsPage = lazy(() => import('./pages/Skills/SkillsPage'));
+const ContactPage = lazy(() => import('./pages/Contact/ContactPage'));
 
 const App = () => {
   return (
@@ -21,7 +21,7 @@ const App = () => {
         <Routes>
           <Route element={<PageRouteWrapper />}>
             <Route path="/jalombroweb/home" element={<HomePage />} />
-            <Route path="/jalombroweb/skills" element={<SkillPage />} />
+            <Route path="/jalombroweb/skills" element={<SkillsPage />} />
             <Route path="/jalombroweb/contact" element={<ContactPage />} />
             <Route path="*" element={<Navigate replace to="/jalombroweb/home" />} />
           </Route>

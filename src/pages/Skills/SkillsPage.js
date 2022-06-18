@@ -1,10 +1,10 @@
 import React from 'react';
-import './Skills.scss';
+import './SkillsPage.scss';
 
 //components
 import SkillBox from '../../components/SkillBox';
 
-const Skills = () => {
+const SkillsPage = () => {
   const skills = [
     { 
       BarColor: "rgb(45, 210, 15, 0.5)",
@@ -43,4 +43,4 @@ const Skills = () => {
   );
 }
 
-export default Skills;
+export default SkillsPage;
