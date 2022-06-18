@@ -1,8 +1,14 @@
-This project was created using ReactJS.
+# My Portfolio Website
 
-## My Portfolio Website
+## Techs used:
+- ReactJS
+- Context API
+- React-testing-library
+- Jest
+- YAML for Github actions CI/CD
 
-This is just a simple website that for my credentials.
+## Description
+This is just a simple website for my credentials.
 This is still unfinished but you can have a sneak peak if you click the link below
 
 Live Demo Here: https://jkalombro.github.io/jalombroweb/

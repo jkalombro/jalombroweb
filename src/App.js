@@ -1,69 +1,32 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-router-dom';
-import myLogo from './images/mylogowhite.png';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 //COMPONENTS
-import HomePage from './pages/Home';
-import SkillPage from './pages/Skills';
-import ContactPage from './pages/Contact';
+import HomePage from './pages/Home/Home';
+import SkillPage from './pages/Skills/Skills';
+import ContactPage from './pages/Contact/Contact';
+import Navbar, { NavbarRouteWrapper } from './components/Navbar';
 
-class App extends Component {
+const App = () => {
+  return (
+    <BrowserRouter>
+      <main className="App">
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      activemenu: 'home'
-    }
-  }
+        {/* Navigation menu */}
+        <Navbar />
 
-  handleChangeRoute = (newactive) => {
-    console.log(newactive);
-    this.setState({activemenu: newactive});
-  }
-
-  render() {
-    return (
-      <Router>
-        <div className="App">
-          <header className="App-header">
-            <div className="header-box-1">
-              <img src={myLogo} alt="My Logo" />
-            </div>
-
-            {/* Main Menu */}
-            <div className="header-box-2">
-              <Link to="/jalombroweb/home">
-                <button className={this.state.activemenu === '/jalombroweb/home' ? 'header-btn btn-selected' : 'header-btn'}>HOME</button>
-              </Link>
-              <Link to="/jalombroweb/skills">
-                <button className={this.state.activemenu === '/jalombroweb/skills' ? 'header-btn btn-selected' : 'header-btn'}>SKILLS</button>
-              </Link>
-              <Link to="/jalombroweb/contact">
-                <button className={this.state.activemenu === '/jalombroweb/contact' ? 'header-btn btn-selected' : 'header-btn'}>CONTACT</button>
-              </Link>
-            </div>
-          </header>
-          <Switch>
-            <Route exact path="/jalombroweb/home" 
-              render={(props) => <HomePage {...props} 
-                handleChangeRoute={this.handleChangeRoute} 
-                currentactivemenu={this.state.activemenu}/>} />
-            <Route exact path="/jalombroweb/skills" 
-              render={(props) => <SkillPage {...props} 
-                  handleChangeRoute={this.handleChangeRoute} 
-                  currentactivemenu={this.state.activemenu}/>} />
-            <Route exact path="/jalombroweb/contact" 
-              render={(props) => <ContactPage {...props} 
-                handleChangeRoute={this.handleChangeRoute} 
-                currentactivemenu={this.state.activemenu}/>} />
-            <Redirect from="/" to="/jalombroweb/home" />
-            <Redirect from="/jalombroweb" to="/jalombroweb/home" />
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
+        <Routes>
+          <Route element={<NavbarRouteWrapper />}>
+            <Route path="/jalombroweb/home" element={<HomePage />} />
+            <Route path="/jalombroweb/skills" element={<SkillPage />} />
+            <Route path="/jalombroweb/contact" element={<ContactPage />} />
+            <Route path="*" element={<Navigate replace to="/jalombroweb/home" />} />
+          </Route>
+        </Routes>
+      </main>
+    </BrowserRouter>
+  );
 }
 
 export default App;
