@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/jalombroweb/static/css/main.9e525239.css",
-    "main.js": "/jalombroweb/static/js/main.3d3b6ebd.js",
+    "main.css": "/jalombroweb/static/css/main.05167aba.css",
+    "main.js": "/jalombroweb/static/js/main.c666805d.js",
+    "static/css/95.549283f2.chunk.css": "/jalombroweb/static/css/95.549283f2.chunk.css",
+    "static/js/95.533c6dd9.chunk.js": "/jalombroweb/static/js/95.533c6dd9.chunk.js",
+    "static/css/360.27350a03.chunk.css": "/jalombroweb/static/css/360.27350a03.chunk.css",
+    "static/js/360.265d0914.chunk.js": "/jalombroweb/static/js/360.265d0914.chunk.js",
+    "static/css/700.2270e262.chunk.css": "/jalombroweb/static/css/700.2270e262.chunk.css",
+    "static/js/700.1b388912.chunk.js": "/jalombroweb/static/js/700.1b388912.chunk.js",
+    "static/js/353.43f7a368.chunk.js": "/jalombroweb/static/js/353.43f7a368.chunk.js",
     "static/media/me_cartoon.png": "/jalombroweb/static/media/me_cartoon.02af1246cfef07b87951.png",
     "index.html": "/jalombroweb/index.html",
-    "main.9e525239.css.map": "/jalombroweb/static/css/main.9e525239.css.map",
-    "main.3d3b6ebd.js.map": "/jalombroweb/static/js/main.3d3b6ebd.js.map"
+    "main.05167aba.css.map": "/jalombroweb/static/css/main.05167aba.css.map",
+    "main.c666805d.js.map": "/jalombroweb/static/js/main.c666805d.js.map",
+    "95.549283f2.chunk.css.map": "/jalombroweb/static/css/95.549283f2.chunk.css.map",
+    "95.533c6dd9.chunk.js.map": "/jalombroweb/static/js/95.533c6dd9.chunk.js.map",
+    "360.27350a03.chunk.css.map": "/jalombroweb/static/css/360.27350a03.chunk.css.map",
+    "360.265d0914.chunk.js.map": "/jalombroweb/static/js/360.265d0914.chunk.js.map",
+    "700.2270e262.chunk.css.map": "/jalombroweb/static/css/700.2270e262.chunk.css.map",
+    "700.1b388912.chunk.js.map": "/jalombroweb/static/js/700.1b388912.chunk.js.map",
+    "353.43f7a368.chunk.js.map": "/jalombroweb/static/js/353.43f7a368.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e525239.css",
-    "static/js/main.3d3b6ebd.js"
+    "static/css/main.05167aba.css",
+    "static/js/main.c666805d.js"
   ]
 }
