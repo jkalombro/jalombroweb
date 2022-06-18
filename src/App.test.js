@@ -1,12 +1,12 @@
 import React from 'react';
 import '@testing-library/jest-dom';
-import { screen } from "@testing-library/react";
+import { screen, act } from "@testing-library/react";
 import render from './utils/jest-context-helper';
 import App from './App';
 
 describe("App Component", () => {
-  it('renders without crashing', () => {
-    render(<App />);
+  it('renders without crashing', async () => {
+    await act(async () => render(<App />));
   });
 
   // it('should have scores component', () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './Skills.scss';
 
 //components
 import SkillBox from '../../components/SkillBox';

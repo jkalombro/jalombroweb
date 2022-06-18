@@ -1,6 +1,6 @@
 import React from 'react';
 import meCartoonIMG from '../../images/me_cartoon.png';
-import './Home.css';
+import './Home.scss';
 
 //components
 import SocialMedia from '../../components/SocialMedia';

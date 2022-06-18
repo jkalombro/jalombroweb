@@ -3,6 +3,7 @@
 ## Techs used:
 - ReactJS
 - Context API
+- SASS
 - React-testing-library
 - Jest
 - YAML for Github actions CI/CD

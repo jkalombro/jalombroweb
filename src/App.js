@@ -1,23 +1,25 @@
-import React from 'react';
-import './App.css';
+import React, { lazy } from 'react';
+import './App.scss';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 //COMPONENTS
-import HomePage from './pages/Home/Home';
-import SkillPage from './pages/Skills/Skills';
-import ContactPage from './pages/Contact/Contact';
-import Navbar, { NavbarRouteWrapper } from './components/Navbar';
+import Navbar from './components/Navbar';
+import PageRouteWrapper from './utils/PageRouteWrapper';
+
+const HomePage = lazy(() => import('./pages/Home/Home'));
+const SkillPage = lazy(() => import('./pages/Skills/Skills'));
+const ContactPage = lazy(() => import('./pages/Contact/Contact'));
 
 const App = () => {
   return (
     <BrowserRouter>
-      <main className="App">
+      <main className="App" data-testid="App">
 
         {/* Navigation menu */}
         <Navbar />
 
         <Routes>
-          <Route element={<NavbarRouteWrapper />}>
+          <Route element={<PageRouteWrapper />}>
             <Route path="/jalombroweb/home" element={<HomePage />} />
             <Route path="/jalombroweb/skills" element={<SkillPage />} />
             <Route path="/jalombroweb/contact" element={<ContactPage />} />
