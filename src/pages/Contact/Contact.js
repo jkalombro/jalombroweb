@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import './Contact.css';
 
 class Contact extends Component {
   render() {
@@ -8,12 +9,12 @@ class Contact extends Component {
     }
 
     return (
-      <div className="contact-page-container">
+      <section className="contact-page">
         <div>
           <br /><br /><br /><br />
           <h1>CONTACT page is still under construction :)</h1>
         </div>
-      </div>
+      </section>
     )
   }
 }

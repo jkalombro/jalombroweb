@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Link, Redirect, Switch } from 'react-ro
 import myLogo from './images/mylogowhite.png';
 
 //COMPONENTS
-import HomePage from './pages/Home';
-import SkillPage from './pages/Skills';
-import ContactPage from './pages/Contact';
+import HomePage from './pages/Home/Home';
+import SkillPage from './pages/Skills/Skills';
+import ContactPage from './pages/Contact/Contact';
 
 class App extends Component {
 
@@ -18,14 +18,13 @@ class App extends Component {
   }
 
   handleChangeRoute = (newactive) => {
-    console.log(newactive);
     this.setState({activemenu: newactive});
   }
 
   render() {
     return (
       <Router>
-        <div className="App">
+        <main className="App">
           <header className="App-header">
             <div className="header-box-1">
               <img src={myLogo} alt="My Logo" />
@@ -44,6 +43,7 @@ class App extends Component {
               </Link>
             </div>
           </header>
+          
           <Switch>
             <Route exact path="/jalombroweb/home" 
               render={(props) => <HomePage {...props} 
@@ -60,7 +60,7 @@ class App extends Component {
             <Redirect from="/" to="/jalombroweb/home" />
             <Redirect from="/jalombroweb" to="/jalombroweb/home" />
           </Switch>
-        </div>
+        </main>
       </Router>
     );
   }

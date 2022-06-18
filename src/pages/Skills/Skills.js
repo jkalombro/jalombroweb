@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
+import './Skills.css';
 
 //components
-import SkillBox from '../components/SkillBox';
+import SkillBox from '../../components/SkillBox';
 
 class Skills extends Component {
   constructor(props) {
@@ -45,11 +46,11 @@ class Skills extends Component {
     });
     
     return (
-      <div className="skills-page-container">
+      <section className="skills-page">
         <div>
           { skillset }
         </div>
-      </div>
+      </section>
     )
   }
 }
