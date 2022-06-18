@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect } from 'react';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { UseAppContext } from '../context/AppContext';
 import myLogo from '../images/mylogowhite.png';
 
@@ -26,26 +26,6 @@ const Navbar = () => {
         </div>
     </header>
   )
-}
-
-export const NavbarRouteWrapper = () => 
-{
-    const { activemenu, setActivemenu } = UseAppContext();
-    const location = useLocation();
-
-    const evaluateActiveMenu = useCallback(() => {
-        if(activemenu !== location.pathname) {
-            setActivemenu(location.pathname);
-        }
-    }, [activemenu, location, setActivemenu]);
-
-    useEffect(() => {
-        evaluateActiveMenu();
-    }, [activemenu, evaluateActiveMenu]);
-
-    return (
-        <Outlet />
-    );
 }
 
 export default Navbar;

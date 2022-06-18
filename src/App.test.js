@@ -5,8 +5,10 @@ import render from './utils/jest-context-helper';
 import App from './App';
 
 describe("App Component", () => {
-  it('renders without crashing', () => {
-    render(<App />);
+  it('renders without crashing', async () => {
+    const { findByTestId } = render(<App />);
+    const AppElement = await findByTestId('App');
+    expect(AppElement).toBeInTheDocument();
   });
 
   // it('should have scores component', () => {
