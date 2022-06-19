@@ -1,49 +1,68 @@
+@import '../../App.scss';
+
 section.home-page {
-  position: relative;
-  display: flex;
+  @include common-page-attr;
   flex-direction: column;
-  width: 100%;
-  min-height: 100%;
-}
 
-.personal-div {
-  position: relative;
-  background-color: #282c34;
-  color: white;
-  text-align: center;
-  height: 90vh;
-  padding: 0px 20px;
+  .personal-div {
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 90vh;
+    padding: 0px 20px;
 
-  h1 {
-    font-size: calc(20px + 5vmin);
-    animation: 1s ease-out 0s 1 slideInFromTop;
+    h1 {
+      font-size: calc(20px + 5vmin);
+      animation: 1s ease-out 0s 1 fadeInDown;
+    }
+
+    p {
+      font-size: calc(10px + 2vmin);
+      animation: fadeIn 2s;
+    }
   }
 
-  p {
-    font-size: calc(10px + 2vmin);
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera < 12.1 */
-    animation: fadein 2s;
+  .cartoon-img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 35vh;
+    animation: fadeIn 1s;
+  }
+
+  .smedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    svg {
+      height: 70px;
+      margin: 10px;
+      opacity: 0.5;
+      cursor: pointer;
+      animation: flipInX;
+      animation-duration: 1s;
+
+      &:hover {
+        opacity: 1;
+        animation: rubberBand;
+        animation-duration: 0.5s;
+      }
+    }
   }
 }
 
-.cartoon-img {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
-  height: 35vh;
-  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 0.5s; /* Firefox < 16 */
-  -ms-animation: fadein 0.5s; /* Internet Explorer */
-  -o-animation: fadein 0.5s; /* Opera < 12.1 */
-  animation: fadein 0.5s;
-}
-
-@media (max-width: 450px) {
+@include mobile {
   .cartoon-img {
     height: 20vh !important;
+  }
+
+  section.home-page {
+    .smedia {
+      svg {
+        height: 40px;
+      }
+    }
   }
 }

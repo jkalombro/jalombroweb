@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import PageRouteWrapper from './utils/PageRouteWrapper';
 
 const HomePage = lazy(() => import('./pages/Home/HomePage'));
-const SkillsPage = lazy(() => import('./pages/Skills/SkillsPage'));
+const AboutMePage = lazy(() => import('./pages/AboutMe/AboutMePage'));
 const ContactPage = lazy(() => import('./pages/Contact/ContactPage'));
 
 const App = () => {
@@ -20,10 +20,10 @@ const App = () => {
 
         <Routes>
           <Route element={<PageRouteWrapper />}>
-            <Route path="/jalombroweb/home" element={<HomePage />} />
-            <Route path="/jalombroweb/skills" element={<SkillsPage />} />
+            <Route path="/jalombroweb" element={<HomePage />} />
+            <Route path="/jalombroweb/aboutme" element={<AboutMePage />} />
             <Route path="/jalombroweb/contact" element={<ContactPage />} />
-            <Route path="*" element={<Navigate replace to="/jalombroweb/home" />} />
+            <Route path="*" element={<Navigate replace to="/jalombroweb" />} />
           </Route>
         </Routes>
       </main>
