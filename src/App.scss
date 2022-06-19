@@ -18,6 +18,13 @@ a {
   margin-left: 5px;
 }
 
+h1 {
+  font-size: 80px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  animation: flipInX 1s;
+}
+
 //Global Vars
 // $mobile-and-tablet-maxwidth: 768px;
 
@@ -33,5 +40,13 @@ a {
   //this handles mobile and tablet
   @media (max-width: 768px) {
     @content;
+  }
+}
+
+//media
+@include mobile {
+  h1 {
+    font-size: 50px;
+    margin-block-start: 0em;
   }
 }
