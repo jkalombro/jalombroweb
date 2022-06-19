@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 import "react-toastify/dist/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
 
-// import MyAddressMap from "../../components/MyAddressMap";
+import MyAddressMap from "../../components/MyAddressMap";
 
 const ContactPage = () => {
   const form = useRef();
@@ -45,7 +45,7 @@ const ContactPage = () => {
           <form ref={form} onSubmit={sendEmail}>
             <ul>
               <li className="half">
-                <input placeholder="Name" type="text" name="name" required />
+                <input placeholder="Name" type="text" name="name" autoComplete="false" required />
               </li>
               <li className="half">
                 <input placeholder="Email" type="email" name="email" required />
@@ -67,8 +67,7 @@ const ContactPage = () => {
       </section>
 
       <section className="map-col">
-        {/* <MyAddressMap /> */}
-        <p>Will put something awesome here. To be continued.</p>
+        <MyAddressMap />
       </section>
 
       <ToastContainer
