@@ -4,11 +4,15 @@
   "private": true,
   "homepage": "https://jkalombro.github.io/jalombroweb/",
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "animate.css": "^4.1.1",
     "chart.js": "^2.7.3",
     "gh-pages": "^2.0.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "spinners-react": "^1.0.7"

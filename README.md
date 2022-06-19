@@ -1,9 +1,10 @@
 # My Portfolio Website
 
 ## Techs used:
-- ReactJS
-- Context API
+- ReactJS (Context API, React Lazy Loading, React Hooks, React Router Dom)
 - SASS
+- Animate.css
+- EmailJS
 - React-testing-library
 - Jest
 - YAML for Github actions CI/CD
