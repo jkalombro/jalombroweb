@@ -5,6 +5,7 @@
   "homepage": "https://jkalombro.github.io/jalombroweb/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
     "animate.css": "^4.1.1",
