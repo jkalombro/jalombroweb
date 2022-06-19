@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/jalombroweb/static/css/main.e0381988.css",
-    "main.js": "/jalombroweb/static/js/main.6982ba16.js",
-    "static/css/409.7b24f442.chunk.css": "/jalombroweb/static/css/409.7b24f442.chunk.css",
+    "main.css": "/jalombroweb/static/css/main.141e7fac.css",
+    "main.js": "/jalombroweb/static/js/main.9b1394df.js",
+    "static/css/409.ddf5b419.chunk.css": "/jalombroweb/static/css/409.ddf5b419.chunk.css",
     "static/js/409.80da15c0.chunk.js": "/jalombroweb/static/js/409.80da15c0.chunk.js",
-    "static/css/469.277d5272.chunk.css": "/jalombroweb/static/css/469.277d5272.chunk.css",
+    "static/css/469.c28e7e98.chunk.css": "/jalombroweb/static/css/469.c28e7e98.chunk.css",
     "static/js/469.720d628a.chunk.js": "/jalombroweb/static/js/469.720d628a.chunk.js",
-    "static/css/506.61f08335.chunk.css": "/jalombroweb/static/css/506.61f08335.chunk.css",
-    "static/js/506.ea043f17.chunk.js": "/jalombroweb/static/js/506.ea043f17.chunk.js",
+    "static/css/182.32bcaf4e.chunk.css": "/jalombroweb/static/css/182.32bcaf4e.chunk.css",
+    "static/js/182.fbd707b2.chunk.js": "/jalombroweb/static/js/182.fbd707b2.chunk.js",
     "static/js/344.66ad33c4.chunk.js": "/jalombroweb/static/js/344.66ad33c4.chunk.js",
     "static/media/me_cartoon.png": "/jalombroweb/static/media/me_cartoon.02af1246cfef07b87951.png",
     "index.html": "/jalombroweb/index.html",
-    "main.e0381988.css.map": "/jalombroweb/static/css/main.e0381988.css.map",
-    "main.6982ba16.js.map": "/jalombroweb/static/js/main.6982ba16.js.map",
-    "409.7b24f442.chunk.css.map": "/jalombroweb/static/css/409.7b24f442.chunk.css.map",
+    "main.141e7fac.css.map": "/jalombroweb/static/css/main.141e7fac.css.map",
+    "main.9b1394df.js.map": "/jalombroweb/static/js/main.9b1394df.js.map",
+    "409.ddf5b419.chunk.css.map": "/jalombroweb/static/css/409.ddf5b419.chunk.css.map",
     "409.80da15c0.chunk.js.map": "/jalombroweb/static/js/409.80da15c0.chunk.js.map",
-    "469.277d5272.chunk.css.map": "/jalombroweb/static/css/469.277d5272.chunk.css.map",
+    "469.c28e7e98.chunk.css.map": "/jalombroweb/static/css/469.c28e7e98.chunk.css.map",
     "469.720d628a.chunk.js.map": "/jalombroweb/static/js/469.720d628a.chunk.js.map",
-    "506.61f08335.chunk.css.map": "/jalombroweb/static/css/506.61f08335.chunk.css.map",
-    "506.ea043f17.chunk.js.map": "/jalombroweb/static/js/506.ea043f17.chunk.js.map",
+    "182.32bcaf4e.chunk.css.map": "/jalombroweb/static/css/182.32bcaf4e.chunk.css.map",
+    "182.fbd707b2.chunk.js.map": "/jalombroweb/static/js/182.fbd707b2.chunk.js.map",
     "344.66ad33c4.chunk.js.map": "/jalombroweb/static/js/344.66ad33c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0381988.css",
-    "static/js/main.6982ba16.js"
+    "static/css/main.141e7fac.css",
+    "static/js/main.9b1394df.js"
   ]
 }
