@@ -1,13 +1,37 @@
-@import 'animate.css';
+@import "animate.css";
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .App {
   min-height: 100vh;
+}
+
+a {
+  color: #5ed4f4;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+//Global Vars
+// $mobile-and-tablet-maxwidth: 768px;
+
+//Global mixins
+@mixin common-page-attr {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #282c34;
+}
+
+@mixin mobile {
+  //this handles mobile and tablet
+  @media (max-width: 768px) {
+    @content;
+  }
 }

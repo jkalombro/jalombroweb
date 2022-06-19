@@ -1,9 +1,7 @@
+@import "../../App.scss";
+
 section.aboutme-page {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: #282c34;
+  @include common-page-attr;
   min-height: 90vh;
   color: #e9e9ea;
   overflow: hidden;
@@ -37,6 +35,10 @@ section.aboutme-page {
         opacity: 1;
       }
 
+      i {
+        font-size: 16px;
+      }
+
       &:hover {
         opacity: 1;
       }
@@ -44,56 +46,98 @@ section.aboutme-page {
   }
 
   .skills-col {
-    .cubespinner {
-      animation-name: spincube;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite;
-      animation-duration: 12s;
-      transform-style: preserve-3d;
-      transform-origin: 100px 100px 0;
-      margin-left: calc(50% - 100px);
+    .cube-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+
+      .cubespinner {
+        animation-name: spincube;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 12s;
+        transform-style: preserve-3d;
+        transform-origin: 100px 100px 0;
+        margin-left: calc(50% - 100px);
+
+        div {
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          border: 1px solid #ccc;
+          background: rgba(255, 255, 255, 0.4);
+          text-align: center;
+          font-size: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0 0 20px 0px lightyellow;
+        }
+
+        .face1 {
+          transform: translateZ(100px);
+          color: #dd0031;
+        }
+        .face2 {
+          transform: rotateY(90deg) translateZ(100px);
+          color: #f06529;
+        }
+        .face3 {
+          transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+          color: #28a4d9;
+        }
+        .face4 {
+          transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+          color: #5ed4f4;
+        }
+        .face5 {
+          transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+          color: #efd81d;
+        }
+        .face6 {
+          transform: rotateX(-90deg) translateZ(100px);
+          color: #ec4d28;
+        }
+      }
+    }
+
+    .allskills-wrapper {
+      flex: 1;
       position: relative;
 
-      div {
+      .skills-with-logo {
         position: absolute;
-        width: 200px;
-        height: 200px;
-        border: 1px solid #ccc;
-        background: rgba(255, 255, 255, 0.4);
-        text-align: center;
-        font-size: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 0 20px 0px lightyellow;
-      }
+        bottom: 0;
+        left: 0;
+        width: 100%;
 
-      .face1 {
-        transform: translateZ(100px);
-        color: #dd0031;
-      }
-      .face2 {
-        transform: rotateY(90deg) translateZ(100px);
-        color: #f06529;
-      }
-      .face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-        color: #28a4d9;
-      }
-      .face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-        color: #5ed4f4;
-      }
-      .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-        color: #efd81d;
-      }
-      .face6 {
-        transform: rotateX(-90deg) translateZ(100px);
-        color: #ec4d28;
+        svg {
+          margin: 5px;
+          height: 50px;
+
+          &:hover {
+            animation: rubberBand 1s;
+          }
+        }
       }
     }
   }
+}
+
+.animated-displayin svg {
+    animation: bounceIn 1s;
+    opacity: 0;
+}
+
+@for $i from 1 through 17 {
+    .animated-displayin svg {
+        &:nth-child(#{$i}) {
+            animation-delay: #{calc($i / 10)}s;
+            opacity: 1;
+        }
+    }
 }
 
 @keyframes spincube {
@@ -118,13 +162,39 @@ section.aboutme-page {
   }
 }
 
-@media (max-width: 675px) {
+@include mobile {
   section.aboutme-page {
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     .profile-col,
     .skills-col {
-      width: 100%;
+      width: 90vw;
+      padding: 20px;
+    }
+
+    .profile-col {
+      min-height: 50vh;
+
+      h1 {
+        font-size: 50px;
+        margin-block-start: 0em;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .skills-col {
+      min-height: 60vh;
+
+      .allskills-wrapper {
+        .skills-with-logo {
+          svg {
+            height: 30px;
+          }
+        }
+      }
     }
   }
 }
