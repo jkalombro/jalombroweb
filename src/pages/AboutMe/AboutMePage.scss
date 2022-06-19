@@ -18,13 +18,6 @@ section.aboutme-page {
   }
 
   .profile-col {
-    h1 {
-      font-size: 80px;
-      margin-block-start: 0.5em;
-      margin-block-end: 0.5em;
-      animation: flipInX 1s;
-    }
-
     p {
       font-size: 20px;
       animation: fadeIn 2s;
@@ -174,11 +167,6 @@ section.aboutme-page {
 
     .profile-col {
       min-height: 50vh;
-
-      h1 {
-        font-size: 50px;
-        margin-block-start: 0em;
-      }
 
       p {
         font-size: 16px;
