@@ -11,25 +11,3 @@ body {
 .App {
   min-height: 100vh;
 }
-
-.smedia {
-  img {
-    height: 8vh;
-    margin: 5px;
-    opacity: 0.5;
-    cursor: pointer;
-    animation: flipInX;
-    animation-duration: 1s;
-
-    &:hover {
-      opacity: 1;
-      animation: rubberBand;
-      animation-duration: 0.5s;
-    }
-  }
-}
-
-.skill-box {
-  width: 80vw;
-  text-align: center;
-}
