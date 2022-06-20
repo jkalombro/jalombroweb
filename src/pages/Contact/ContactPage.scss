@@ -118,6 +118,35 @@ section.contact-page {
   }
 }
 
+@include laptop {
+  section.contact-page .form-col p {
+    font-size: 15px;
+  }
+
+  section.contact-page .form-col input[type="email"],
+  section.contact-page .form-col input[type="text"] {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  section.contact-page .form-col textarea {
+    font-size: 14px;
+    min-height: 120px;
+    padding: 10px;
+  }
+
+  section.contact-page .form-col .flat-button {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  section.contact-page .form-col,
+  section.contact-page .map-col {
+    padding: 40px 50px;
+  }
+}
+
 @include mobile {
   section.contact-page {
     flex-direction: column;

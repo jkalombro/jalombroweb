@@ -17,7 +17,7 @@ const AboutMePage = () => {
             <br />
             <p><i>Note: The list of skills displayed here is limited because fontawesome doesn't 
                 have logo for all of them. To view the complete list of my tech stack, please refer to my 
-                <a href="https://www.docdroid.net/xwJhDh4/alombro-resume-pdf" target="_blank" rel="noreferrer">RESUME/CV</a></i></p>
+                <a href="https://www.docdroid.net/xwJhDh4/alombro-resume-pdf" target="_blank" rel="noreferrer">RESUME / CV</a></i></p>
         </section>
 
         <section className="skills-col">

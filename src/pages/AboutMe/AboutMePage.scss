@@ -120,17 +120,17 @@ section.aboutme-page {
 }
 
 .animated-displayin svg {
-    animation: bounceIn 1s;
-    opacity: 0;
+  animation: bounceIn 1s;
+  opacity: 0;
 }
 
 @for $i from 1 through 17 {
-    .animated-displayin svg {
-        &:nth-child(#{$i}) {
-            animation-delay: #{calc($i / 10)}s;
-            opacity: 1;
-        }
+  .animated-displayin svg {
+    &:nth-child(#{$i}) {
+      animation-delay: #{calc($i / 10)}s;
+      opacity: 1;
     }
+  }
 }
 
 @keyframes spincube {
@@ -152,6 +152,21 @@ section.aboutme-page {
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@include laptop {
+  section.aboutme-page .skills-col .cube-wrapper {
+    margin-top: 30px;
+    justify-content: flex-start;
+  }
+
+  section.aboutme-page .skills-col .allskills-wrapper .skills-with-logo svg {
+    height: 40px;
+  }
+
+  section.aboutme-page .profile-col p {
+    font-size: 15px;
   }
 }
 
