@@ -17,13 +17,13 @@ const HomePage = () => {
         <p>I love using ReactJS.</p>
 
         <div className="smedia">
-          <div onClick={() => handleClick("https://www.linkedin.com/in/jerich-alombro-47a4a9124/")}>
+          <div onClick={() => handleClick("https://github.com/jkalombro")}>
             <FontAwesomeIcon icon={faGithub} color="#FFF" />
           </div>
-          <div onClick={() => handleClick("https://github.com/jkalombro")}>
+          <div onClick={() => handleClick("https://www.linkedin.com/in/jerich-alombro-47a4a9124/")}>
             <FontAwesomeIcon icon={faLinkedin} color="#FFF" />
           </div>
-          <div onClick={() => handleClick("https://stackoverflow.com/users/5906950/jkalombro")}>
+          <div onClick={() => handleClick("https://stackoverflow.com/users/5906950/jkalombro?tab=profile")}>
             <FontAwesomeIcon icon={faStackOverflow} color="#FFF" />
           </div>
         </div>
