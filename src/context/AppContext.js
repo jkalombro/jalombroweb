@@ -8,7 +8,7 @@ export const UseAppContext = () => {
 };
 
 export const AppContextProvider = (props) => {
-  const [activemenu, setActivemenu] = useState("/jalombroweb/home");
+  const [activemenu, setActivemenu] = useState("/jalombroweb");
 
   // Assign React state and constants to context object
   const AppContextObject = {
