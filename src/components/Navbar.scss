@@ -31,7 +31,7 @@
 
 a {
   .header-btn {
-    font-family: "Lato", sans-serif;
+    @include global-font;
     background: transparent;
     border: 0px;
     cursor: pointer;
