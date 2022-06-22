@@ -1,9 +1,22 @@
 @import "animate.css";
 
+//Global mixins
+@mixin global-font {
+  font-family: "Lato", sans-serif;
+}
+
+@mixin common-page-attr {
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color: #282c34;
+}
+
+
 body {
+  @include global-font;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -28,13 +41,6 @@ h1 {
 //Global Vars
 // $mobile-and-tablet-maxwidth: 768px;
 
-//Global mixins
-@mixin common-page-attr {
-  width: 100%;
-  display: flex;
-  position: relative;
-  background-color: #282c34;
-}
 
 @mixin mobile {
   //this handles mobile and tablet
