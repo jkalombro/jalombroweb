@@ -15,14 +15,14 @@ const Navbar = () => {
 
         {/* Main Menu */}
         <div className="header-box-2">
-            <Link to="/jalombroweb">
-                <button className={activemenu === '/jalombroweb' ? 'header-btn btn-selected' : 'header-btn'}>HOME</button>
+            <Link to="">
+                <button className={activemenu === '/' ? 'header-btn btn-selected' : 'header-btn'}>HOME</button>
             </Link>
-            <Link to="/jalombroweb/aboutme">
-                <button className={activemenu === '/jalombroweb/aboutme' ? 'header-btn btn-selected' : 'header-btn'}>ABOUT ME</button>
+            <Link to="/aboutme">
+                <button className={activemenu === '/aboutme' ? 'header-btn btn-selected' : 'header-btn'}>ABOUT ME</button>
             </Link>
-            <Link to="/jalombroweb/contact">
-                <button className={activemenu === '/jalombroweb/contact' ? 'header-btn btn-selected' : 'header-btn'}>CONTACT</button>
+            <Link to="/contact">
+                <button className={activemenu === '/contact' ? 'header-btn btn-selected' : 'header-btn'}>CONTACT</button>
             </Link>
         </div>
     </header>

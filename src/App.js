@@ -20,10 +20,10 @@ const App = () => {
 
         <Routes>
           <Route element={<PageRouteWrapper />}>
-            <Route path="/jalombroweb" element={<HomePage />} />
-            <Route path="/jalombroweb/aboutme" element={<AboutMePage />} />
-            <Route path="/jalombroweb/contact" element={<ContactPage />} />
-            <Route path="*" element={<Navigate replace to="/jalombroweb" />} />
+            <Route index element={<HomePage />} />
+            <Route path="/aboutme" element={<AboutMePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="*" element={<Navigate replace to="/" />} />
           </Route>
         </Routes>
       </main>
