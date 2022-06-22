@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/jalombroweb/static/css/main.efab658c.css",
-    "main.js": "/jalombroweb/static/js/main.75b40911.js",
+    "main.js": "/jalombroweb/static/js/main.6873bc6e.js",
     "static/css/409.7a4859d4.chunk.css": "/jalombroweb/static/css/409.7a4859d4.chunk.css",
     "static/js/409.46706cc2.chunk.js": "/jalombroweb/static/js/409.46706cc2.chunk.js",
     "static/css/469.5ac3e4b2.chunk.css": "/jalombroweb/static/css/469.5ac3e4b2.chunk.css",
     "static/js/469.d6a0c7e7.chunk.js": "/jalombroweb/static/js/469.d6a0c7e7.chunk.js",
-    "static/css/220.551e2781.chunk.css": "/jalombroweb/static/css/220.551e2781.chunk.css",
+    "static/css/220.cd6e95e1.chunk.css": "/jalombroweb/static/css/220.cd6e95e1.chunk.css",
     "static/js/220.611dac81.chunk.js": "/jalombroweb/static/js/220.611dac81.chunk.js",
     "static/js/344.66ad33c4.chunk.js": "/jalombroweb/static/js/344.66ad33c4.chunk.js",
     "static/media/me_cartoon.png": "/jalombroweb/static/media/me_cartoon.02af1246cfef07b87951.png",
     "index.html": "/jalombroweb/index.html",
     "main.efab658c.css.map": "/jalombroweb/static/css/main.efab658c.css.map",
-    "main.75b40911.js.map": "/jalombroweb/static/js/main.75b40911.js.map",
+    "main.6873bc6e.js.map": "/jalombroweb/static/js/main.6873bc6e.js.map",
     "409.7a4859d4.chunk.css.map": "/jalombroweb/static/css/409.7a4859d4.chunk.css.map",
     "409.46706cc2.chunk.js.map": "/jalombroweb/static/js/409.46706cc2.chunk.js.map",
     "469.5ac3e4b2.chunk.css.map": "/jalombroweb/static/css/469.5ac3e4b2.chunk.css.map",
     "469.d6a0c7e7.chunk.js.map": "/jalombroweb/static/js/469.d6a0c7e7.chunk.js.map",
-    "220.551e2781.chunk.css.map": "/jalombroweb/static/css/220.551e2781.chunk.css.map",
+    "220.cd6e95e1.chunk.css.map": "/jalombroweb/static/css/220.cd6e95e1.chunk.css.map",
     "220.611dac81.chunk.js.map": "/jalombroweb/static/js/220.611dac81.chunk.js.map",
     "344.66ad33c4.chunk.js.map": "/jalombroweb/static/js/344.66ad33c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efab658c.css",
-    "static/js/main.75b40911.js"
+    "static/js/main.6873bc6e.js"
   ]
 }
