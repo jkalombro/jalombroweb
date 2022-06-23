@@ -15,7 +15,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MyAddressMap = () => {
   return (
-    <>
+    <div data-testid="addressMap">
         <div className="info-map">
           Villa Azalea, Cotcot 
           <br />
@@ -35,7 +35,7 @@ const MyAddressMap = () => {
             </Marker>
           </MapContainer>
         </div>
-    </>
+    </div>
   )
 }
 

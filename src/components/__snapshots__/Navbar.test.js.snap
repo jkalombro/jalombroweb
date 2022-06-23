@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component matches with snapshot 1`] = `
+<header
+  class="App-header"
+  data-testid="navbar"
+>
+  <div
+    class="header-box-1"
+  >
+    <img
+      alt="My Logo"
+      src="mylogowhite.png"
+    />
+  </div>
+  <div
+    class="header-box-2"
+  >
+    <a
+      href="/jalombroweb"
+    >
+      <button
+        class="header-btn btn-selected"
+      >
+        HOME
+      </button>
+    </a>
+    <a
+      href="/jalombroweb/aboutme"
+    >
+      <button
+        class="header-btn"
+      >
+        ABOUT ME
+      </button>
+    </a>
+    <a
+      href="/jalombroweb/contact"
+    >
+      <button
+        class="header-btn"
+      >
+        CONTACT
+      </button>
+    </a>
+  </div>
+</header>
+`;
