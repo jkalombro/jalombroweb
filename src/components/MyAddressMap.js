@@ -26,7 +26,7 @@ const MyAddressMap = () => {
           <span>jerichalombro@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[10.4314048, 123.9977323]} zoom={13} scrollWheelZoom={false} zoomControl={false}>
+          <MapContainer center={[10.4314048, 123.9977323]} zoom={13} scrollWheelZoom={false} zoomControl={false} data-testid="map">
             <TileLayer 
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
