@@ -10,12 +10,6 @@ describe("HomePage Component", () => {
     expect(element).toBeTruthy();
   });
 
-  it('matches with snapshot', () => {
-    const { getByTestId } = render(<HomePage />);
-    const element = getByTestId("homepage");
-    expect(element).toMatchSnapshot();
-  });
-
   it('has all necessary texts', () => {
     const { getByText } = render(<HomePage />);
     const el1 = getByText(/Hi, I'm Jerich!/);
