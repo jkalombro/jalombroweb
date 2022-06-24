@@ -13,7 +13,7 @@ const ContactPage = lazy(() => import('./pages/Contact/ContactPage'));
 const App = () => {
   return (
     <BrowserRouter>
-      <main className="App">
+      <main className="App" data-testid="App">
 
         {/* Navigation menu */}
         <Navbar />

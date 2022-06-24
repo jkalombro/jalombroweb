@@ -14,8 +14,10 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 const MyAddressMap = () => {
+  const coodinates = [10.5314636,123.9477223];
+
   return (
-    <>
+    <div data-testid="addressMap">
         <div className="info-map">
           Villa Azalea, Cotcot 
           <br />
@@ -26,16 +28,16 @@ const MyAddressMap = () => {
           <span>jerichalombro@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[10.4314048, 123.9977323]} zoom={13} scrollWheelZoom={false} zoomControl={false}>
+          <MapContainer center={coodinates} zoom={9} scrollWheelZoom={false} zoomControl={false} data-testid="map">
             <TileLayer 
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' 
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[10.4314048, 123.9977323]}>
+            <Marker position={coodinates}>
               <Popup>Jerich lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
-    </>
+    </div>
   )
 }
 

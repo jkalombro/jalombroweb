@@ -8,7 +8,7 @@ const Navbar = () => {
   const { activemenu } = UseAppContext();
 
   return (
-    <header className="App-header">
+    <header className="App-header" data-testid="navbar">
         <div className="header-box-1">
             <img src={myLogo} alt="My Logo" />
         </div>

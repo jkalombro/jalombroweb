@@ -32,7 +32,7 @@ const ContactPage = () => {
   }
 
   return (
-    <section className="contact-page">
+    <section className="contact-page" data-testid="contactpage">
       <section className="form-col">
         <h1>
           Contact Me
@@ -45,13 +45,13 @@ const ContactPage = () => {
           <form ref={form} onSubmit={sendEmail}>
             <ul>
               <li className="half">
-                <input placeholder="Name" type="text" name="name" autoComplete="false" required />
+                <input placeholder="Name" type="text" name="name" autoComplete="off" required />
               </li>
               <li className="half">
-                <input placeholder="Email" type="email" name="email" required />
+                <input placeholder="Email" type="email" name="email" autoComplete="off" required />
               </li>
               <li>
-                <input placeholder="Subject" type="text" name="subject" required />
+                <input placeholder="Subject" type="text" name="subject" autoComplete="off" required />
               </li>
               <li>
                 <textarea placeholder="Message" name="message" required></textarea>

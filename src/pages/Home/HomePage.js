@@ -10,7 +10,7 @@ const HomePage = () => {
   };
 
   return (
-    <section className="home-page">
+    <section className="home-page" data-testid="homepage">
       <div className="personal-div">
         <h1>Hi, I'm Jerich!</h1>
         <p>I'm a Software Developer that specializes in Front-end.</p>
@@ -18,13 +18,13 @@ const HomePage = () => {
 
         <div className="smedia">
           <div onClick={() => handleClick("https://github.com/jkalombro")}>
-            <FontAwesomeIcon icon={faGithub} color="#FFF" />
+            <FontAwesomeIcon icon={faGithub} color="#FFF" title="smedia" />
           </div>
           <div onClick={() => handleClick("https://www.linkedin.com/in/jerich-alombro-47a4a9124/")}>
-            <FontAwesomeIcon icon={faLinkedin} color="#FFF" />
+            <FontAwesomeIcon icon={faLinkedin} color="#FFF" title="smedia" />
           </div>
           <div onClick={() => handleClick("https://stackoverflow.com/users/5906950/jkalombro?tab=profile")}>
-            <FontAwesomeIcon icon={faStackOverflow} color="#FFF" />
+            <FontAwesomeIcon icon={faStackOverflow} color="#FFF" title="smedia" />
           </div>
         </div>
 

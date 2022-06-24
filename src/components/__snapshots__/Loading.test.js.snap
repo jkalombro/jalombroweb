@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Component matches with snapshot 1`] = `
+<div
+  class="loading-wrapper"
+  data-testid="loadingComponent"
+>
+  <svg
+    fill="none"
+    style="color: rgb(57, 172, 158); overflow: visible; width: 90px;"
+    viewBox="0 0 66 66"
+  >
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(22px, -20px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(29px, 0px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.07352941176470588s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(22px, 20px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.14705882352941177s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(0px, 30px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.22058823529411764s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(-23px, 20px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.29411764705882354s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(-30px, 0px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.36764705882352944s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(-23px, -20px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.4411764705882353s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="3.66"
+      style="transform: translate(0px, -30px); animation: spinners-react-dotted-shrink 1.4705882352941178s cubic-bezier(0, 0.9, 0, 0.9) 0.5147058823529412s infinite;"
+    />
+    <circle
+      cx="33"
+      cy="33"
+      fill="currentColor"
+      r="7.32"
+      style="animation: spinners-react-dotted-center 1.4705882352941178s ease-out infinite; transform-origin: center;"
+    />
+  </svg>
+</div>
+`;
