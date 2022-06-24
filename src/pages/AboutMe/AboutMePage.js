@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AboutMePage = () => {
   return (
-    <section className="aboutme-page">
+    <section className="aboutme-page" data-testid="aboutmepage">
         <section className='profile-col'>
             <h1>About Me</h1>
 
@@ -24,45 +24,45 @@ const AboutMePage = () => {
             <div className="cube-wrapper">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                        <FontAwesomeIcon icon={faReact} color="#5ED4F4" title="cubeface" />
                     </div>
                     <div className="face2">
-                        <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                        <FontAwesomeIcon icon={faHtml5} color="#F06529" title="cubeface" />
                     </div>
                     <div className="face3">
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                        <FontAwesomeIcon icon={faCss3} color="#28A4D9" title="cubeface" />
                     </div>
                     <div className="face4">
-                        <FontAwesomeIcon icon={faSass} color="#CC6699" />
+                        <FontAwesomeIcon icon={faSass} color="#CC6699" title="cubeface" />
                     </div>
                     <div className="face5">
-                        <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                        <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" title="cubeface" />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" title="cubeface" />
                     </div>
                 </div>
             </div>
             
             <div className="allskills-wrapper">
                 <div className="skills-with-logo animated-displayin">
-                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-                    <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-                    <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-                    <FontAwesomeIcon icon={faSass} color="#CC6699" />
-                    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-                    <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-                    <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-                    <FontAwesomeIcon icon={faGithub} color="#f0f6fc" />
-                    <FontAwesomeIcon icon={faNodeJs} color="#68a063" />
-                    <FontAwesomeIcon icon={faNpm} color="#cc3534" />
-                    <FontAwesomeIcon icon={faYarn} color="#2a87b2" />
-                    <FontAwesomeIcon icon={faSwift} color="#f05138" />
-                    <FontAwesomeIcon icon={faConfluence} color="#247df2" />
-                    <FontAwesomeIcon icon={faGitlab} color="#d74027" />
-                    <FontAwesomeIcon icon={faAtlassian} color="#247df2" />
-                    <FontAwesomeIcon icon={faGulp} color="#DB4446" />
-                    <FontAwesomeIcon icon={faFontAwesome} color="#247df2" />
+                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" title="skills" />
+                    <FontAwesomeIcon icon={faHtml5} color="#F06529" title="skills" />
+                    <FontAwesomeIcon icon={faCss3} color="#28A4D9" title="skills" />
+                    <FontAwesomeIcon icon={faSass} color="#CC6699" title="skills" />
+                    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" title="skills" />
+                    <FontAwesomeIcon icon={faAngular} color="#DD0031" title="skills" />
+                    <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" title="skills" />
+                    <FontAwesomeIcon icon={faGithub} color="#f0f6fc" title="skills" />
+                    <FontAwesomeIcon icon={faNodeJs} color="#68a063" title="skills" />
+                    <FontAwesomeIcon icon={faNpm} color="#cc3534" title="skills" />
+                    <FontAwesomeIcon icon={faYarn} color="#2a87b2" title="skills" />
+                    <FontAwesomeIcon icon={faSwift} color="#f05138" title="skills" />
+                    <FontAwesomeIcon icon={faConfluence} color="#247df2" title="skills" />
+                    <FontAwesomeIcon icon={faGitlab} color="#d74027" title="skills" />
+                    <FontAwesomeIcon icon={faAtlassian} color="#247df2" title="skills" />
+                    <FontAwesomeIcon icon={faGulp} color="#DB4446" title="skills" />
+                    <FontAwesomeIcon icon={faFontAwesome} color="#247df2" title="skills" />
                 </div>
                 
             </div>
