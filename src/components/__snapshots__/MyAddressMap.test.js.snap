@@ -45,8 +45,8 @@ exports[`MyAddressMap Component matches with snapshot 1`] = `
                 alt=""
                 class="leaflet-tile"
                 role="presentation"
-                src="https://b.tile.openstreetmap.org/13/6917/3857.png"
-                style="width: 256px; height: 256px; left: -163px; top: -78px;"
+                src="https://a.tile.openstreetmap.org/9/432/240.png"
+                style="width: 256px; height: 256px; left: -72px; top: -240px;"
               />
             </div>
           </div>
