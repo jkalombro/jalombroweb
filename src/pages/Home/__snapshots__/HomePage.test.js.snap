@@ -22,7 +22,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
     >
       <div>
         <svg
-          aria-labelledby="svg-inline--fa-title-PdmX4USPcU81"
+          aria-labelledby="svg-inline--fa-title-oKJQZt8tpN2v"
           class="svg-inline--fa fa-github "
           color="#FFF"
           data-icon="github"
@@ -32,7 +32,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="svg-inline--fa-title-PdmX4USPcU81"
+            id="svg-inline--fa-title-oKJQZt8tpN2v"
           >
             smedia
           </title>
@@ -44,7 +44,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
       </div>
       <div>
         <svg
-          aria-labelledby="svg-inline--fa-title-Kq6ByduSDRD1"
+          aria-labelledby="svg-inline--fa-title-DZIoYKkTLsbE"
           class="svg-inline--fa fa-linkedin "
           color="#FFF"
           data-icon="linkedin"
@@ -54,7 +54,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="svg-inline--fa-title-Kq6ByduSDRD1"
+            id="svg-inline--fa-title-DZIoYKkTLsbE"
           >
             smedia
           </title>
@@ -66,7 +66,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
       </div>
       <div>
         <svg
-          aria-labelledby="svg-inline--fa-title-1ALNPWM2KOiR"
+          aria-labelledby="svg-inline--fa-title-5rGqIephcnpf"
           class="svg-inline--fa fa-stack-overflow "
           color="#FFF"
           data-icon="stack-overflow"
@@ -76,7 +76,7 @@ exports[`HomePage Component matches with snapshot 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <title
-            id="svg-inline--fa-title-1ALNPWM2KOiR"
+            id="svg-inline--fa-title-5rGqIephcnpf"
           >
             smedia
           </title>
