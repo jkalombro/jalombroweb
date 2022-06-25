@@ -133,9 +133,7 @@ describe("ContactPage Component", () => {
 //     await act(async () => {
 //       await fireEvent.change(nameinput, { target: { value: samplename } });
 //       await fireEvent.change(emailinput, { target: { value: sampleemail } });
-//       await fireEvent.change(subjectinput, {
-//         target: { value: samplesubject },
-//       });
+//       await fireEvent.change(subjectinput, { target: { value: samplesubject } });
 //       await fireEvent.change(messageinput, { target: { value: samplemsg } });
 //       await fireEvent.click(button);
 
@@ -147,7 +145,7 @@ describe("ContactPage Component", () => {
 //       const newmessage = await findByPlaceholderText(/message/i);
 //       expect(newname).toHaveValue(samplename);
 //       expect(newemail).toHaveValue(sampleemail);
-//       expect(newemail).toBeInvalid;
+//       expect(newemail).toBeInvalid();
 //       expect(newsubject).toHaveValue(samplesubject);
 //       expect(newmessage).toHaveValue(samplemsg);
 //     });
