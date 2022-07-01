@@ -11,13 +11,13 @@ describe("App Component", () => {
     expect(app).toBeTruthy();
   });
 
-  it('it has a correct landing page', async () => {
+  it('has a correct landing page', async () => {
     const { getByTestId } = await act(async () => render(<App />));
     const page = getByTestId("homepage");
     expect(page).toBeInTheDocument();
   });
 
-  it('it navigates to About Me page correctly', async () => {
+  it('navigates to About Me page correctly', async () => {
     const { getByRole, findByTestId } = await act(async () => render(<App />));
     const element = getByRole('button', {
       name: /about me/i
@@ -27,7 +27,7 @@ describe("App Component", () => {
     expect(page).toBeInTheDocument();
   });
   
-  it('it navigates to Contact page correctly', async () => {
+  it('navigates to Contact page correctly', async () => {
     const { getByRole, findByTestId } = await act(async () => render(<App />));
     const element = getByRole('button', {
       name: /contact/i
