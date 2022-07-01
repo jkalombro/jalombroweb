@@ -8,9 +8,8 @@
 - React-testing-library
 - Jest
 - YAML for Github actions CI/CD
+- Deployed with Heroku
 
 ## Description
 This is just a simple website for my credentials.
-This is still unfinished but you can have a sneak peak if you click the link below
-
-Live Demo Here: https://jkalombro.github.io
+Live Demo Here: https://jkalombro.herokuapp.com
