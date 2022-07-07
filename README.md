@@ -9,6 +9,7 @@
 -   React-testing-library
 -   Jest
 -   Prettier
+-   React-helmet
 -   YAML for Github actions CI/CD
 -   Deployed with Heroku
 

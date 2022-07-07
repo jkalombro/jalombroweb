@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.min.css";
 import { ToastContainer, toast } from "react-toastify";
 
-import MyAddressMap from "../../components/MyAddressMap";
+import MyAddressMap from "../../components/MyAddressMap/MyAddressMap";
 
 const ContactPage = () => {
     const form = useRef();
