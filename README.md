@@ -10,6 +10,7 @@
 -   Jest
 -   Prettier
 -   React-helmet
+-   React-snap
 -   YAML for Github actions CI/CD
 -   Deployed with Heroku
 
